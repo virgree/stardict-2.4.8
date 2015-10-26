@@ -1,0 +1,1822 @@
+<gconfschemafile>
+  <schemalist>
+
+    <schema>
+      <key>/schemas/apps/stardict/preferences/dictionary/scan_selection</key>
+      <applyto>/apps/stardict/preferences/dictionary/scan_selection</applyto>
+      <owner>stardict</owner>
+      <type>bool</type>
+      <default>TRUE</default>
+      <locale name="C">
+	<short>Scan the Selection</short>
+	<long>Whether to scan the selection or not. When the user selects text, stardict will popup a flat window showing the meaning of that text.</long>
+      </locale>
+
+      <locale name="cs">
+	<short>Skenovat výběr</short>
+	
+      </locale>
+
+      <locale name="el">
+	
+	<long>Αν θα ανιχνεύεται η επιλογή ή όχι.. Κατά την επιλογή κειμένου, το stardict θα εμφανίζει ένα παράθυρο με τη σημασία του κειμένου.</long>
+      </locale>
+
+      <locale name="fr">
+	<short>Scanner la sélection</short>
+	<long>Choix entre scanner la sélection, ou pas. Lorsque l&apos;utilisateur sélectionne un mot, StarDict affichera un phylactère montrant la signification de ce mot.</long>
+      </locale>
+
+      <locale name="hr">
+	<short>Pretraži selekciju</short>
+	<long>Da li pretražiti selekciju ili ne. Kad korisnik selektira tekst, stardict će izbaciti prozor koji prikazuje značenje teksta.</long>
+      </locale>
+
+      <locale name="mk">
+	<short>Скенирај за изборот</short>
+	
+      </locale>
+
+      <locale name="nl">
+	<short>De selectie zoeken</short>
+	
+      </locale>
+
+      <locale name="pt_BR">
+	<short>Ler a seleção</short>
+	<long>Se textos selecionados devem lidos ou não. Quando o usuário seleciona um texto, o stardict pesquisa nos dicionários e exibe uma janela com o verbete encontrado.</long>
+      </locale>
+
+      <locale name="ru">
+	<short>Сканировать Выделенное</short>
+	<long>Сканировать выделенное. Когда пользователь выделил текст, StarDict откроет всплывающее окно в котором отобразит значение выделенного.</long>
+      </locale>
+
+      <locale name="sk">
+	<short>Skenovať výber</short>
+	<long>Či skenovať výber alebo nie. Keď používateľ vyberie text, StarDict zobrazí význam slova v plávajúcom okne.</long>
+      </locale>
+
+      <locale name="tt">
+	<short>Saylanğannı Tap</short>
+	<long>Saylanğannı ezläp toru açqıçı. Qullanuçı berär yazma saylağan çaqta, süzlektä tabılğan añlatması yözmä täräzädä çığaralaçaq.</long>
+      </locale>
+
+      <locale name="uk">
+	<short>Слідкувати за виділеним</short>
+	<long>Чи відслідковувати відмічений текст. Коли користувач відмітив текст, Зоряний словник відкриє спливаюче вікно у якому покаже його значення.</long>
+      </locale>
+
+      <locale name="vi">
+	<short>Quét vùng lựa chọn</short>
+	
+      </locale>
+
+      <locale name="zh_CN">
+	<short>选中区取词</short>
+	<long>是否扫描选中区。当用户选中一些文本的时候，星际译王将弹出一个浮动窗口并显示其解释。</long>
+      </locale>
+
+      <locale name="zh_TW">
+	<short>選擇區取詞</short>
+	<long>是否在選擇區取詞。當使用者選擇一些文字時，星際譯王將彈現浮動視窗並顯示其翻釋。</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/stardict/preferences/dictionary/only_scan_while_modifier_key</key>
+      <applyto>/apps/stardict/preferences/dictionary/only_scan_while_modifier_key</applyto>
+      <owner>stardict</owner>
+      <type>bool</type>
+      <default>FALSE</default>
+      <locale name="C">
+	<short>Only scan while modifier key is being pressed</short>
+	<long>Only scan while the modifier key is being pressed. The modifier key is set by "scan_modifier_key".</long>
+      </locale>
+
+      <locale name="el">
+	
+	<long>Ανίχνευση μόνο όταν το πλήκτρο modifier πιέζεται. Το πλήκτρο modifier  ενεργοποιείται με την επιλογή  &quot;ανίχνευση_modifier_πλήκτρου&quot;.</long>
+      </locale>
+
+      <locale name="fr">
+	<short>Scanner uniquement lorsque la touche d&apos;activation est enfoncée</short>
+	<long>Scanner uniquement lorsque la touche d&apos;activation est enfoncée. La touche d&apos;activation est définie par &quot;scan_modifier_key&quot;.</long>
+      </locale>
+
+      <locale name="hr">
+	<short>Pretraži selekciju samo ako je pripadna tipka pritisnuta</short>
+	<long>Pretraži selekciju samo ako je pripadna tipka pritisnuta. Pripadna tipka se postavlja sa &quot;scan_modifier_key&quot;.</long>
+      </locale>
+
+      <locale name="pt_BR">
+	<short>Somente ler se uma tecla modificadora estiver sendo pressionada</short>
+	<long>Somente ler se uma tecla modificadora estiver sendo pressionada. A tecla modificadora é determinada por &quot;scan_modifier_key&quot;.</long>
+      </locale>
+
+      <locale name="ru">
+	<short>Сканировать только если комбинация-модификатор нажата</short>
+	<long>Сканировать только если комбинация-модификатор нажата. Модификатор задается через &quot;Модификатор сканирования&quot;.</long>
+      </locale>
+
+      <locale name="sk">
+	<short>Skenovať iba pri stlačení modifikačného klávesu</short>
+	<long>Skenovať iba pri stlačení modifikačného klávesu. Modifikačný kláves je nastavený pomocou &quot;Modifikačný kláves skenovania&quot;</long>
+      </locale>
+
+      <locale name="tt">
+	<short>Üzgärtkeç töymä basılsa ğına ezläp qarísı</short>
+	<long>Üzgärtkeç töymä basılsa ğına ezläp qarísı. Üzgärtkeç töymä &quot;scan_modifier_key&quot; aşa bilgelänä.</long>
+      </locale>
+
+      <locale name="uk">
+	<short>Слідкувати лише при натиснутій спеціальній клавіші</short>
+	<long>Відслідковувати лише при натиснутій спеціальній клавіші. Спеціальна клавіша встановлюється &quot;Слідкувати зі спеціальною клавішею&quot;.</long>
+      </locale>
+
+      <locale name="zh_CN">
+	<short>在修饰键按下时才取词</short>
+	<long>在修饰键按下时才取词。修饰键由“取词修饰键”选项设置。</long>
+      </locale>
+
+      <locale name="zh_TW">
+	<short>作用鍵按下時才取詞</short>
+	<long>作用鍵按下時才取詞。作用鍵由&quot;取詞作用鍵&quot;選項設定。</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/stardict/preferences/dictionary/hide_floatwin_when_modifier_key_released</key>
+      <applyto>/apps/stardict/preferences/dictionary/hide_floatwin_when_modifier_key_released</applyto>
+      <owner>stardict</owner>
+      <type>bool</type>
+      <default>TRUE</default>
+      <locale name="C">
+	<short>Hide floating window when modifier key is released</short>
+	<long>Hide floating window when modifier key is released. It only take effect when only_scan_while_modifier_key is turned on.</long>
+      </locale>
+
+      <locale name="el">
+	
+	<long>Απόκρυψη επιπλέοντος παραθύρου όταν το πλήκτρο modifier έχει αφεθεί. Ενεργοποιείται μόνο όταν η επιλογή μόνο_ανίχνευση_όταν_modifier_πλήκτρο είναι ενεργή.</long>
+      </locale>
+
+      <locale name="fr">
+	<short>Cacher le phylactère lorsque la touche active est relâchée</short>
+	<long>Cacher le phylactère lorsque la touche active est relâchée. Cette option n&apos;est effective que si &quot;only_scan_while_modifier_key&quot; est activée.</long>
+      </locale>
+
+      <locale name="hr">
+	<short>Sakrij plutajući prozor kod otpuštanja pripadnih tipki</short>
+	<long>Sakrij plutajući prozor kad se otupusti posebna tipka. Ovo će imati utjecaja samo kad se uključi opcija only_scan_while_modifier_key.</long>
+      </locale>
+
+      <locale name="pt_BR">
+	<short>Esconder a janela flutuante quando a tecla modificadora for liberada</short>
+	<long>Esconde a janela flutuante quando a tecla modificadora é liberada. Isso somente tem efeito quando only_scan_while_modifier_key está ativado.</long>
+      </locale>
+
+      <locale name="ru">
+	<short>Прятать всплывающее окно, когда модификатор отпущен</short>
+	<long>Прятать всплывающее окно, когда модификатор отпущен. Только если включено &quot;Сканировать, только если модификатор нажат &quot;.</long>
+      </locale>
+
+      <locale name="sk">
+	<short>Skryť plávajúce okno pri uvoľnení modifikačného klávesu</short>
+	<long>Skryť plávajúce okno pri uvoľnení modifikačného klávesu. Má význam iba pri zapnutej voľbe &quot;Skenovať iba pri stlačení modifikačného klávesu&quot;.</long>
+      </locale>
+
+      <locale name="tt">
+	<short>Üzgärtkeç töymä cibärelgäç yözmä täräzäsen yäşeräse</short>
+	<long>Üzgärtkeç töymä cibärelgäç yözmä täräzäsen yäşeräse. only_scan_while_modifier_key digäne yanıq torsssa ğına bu närsä eşläyäçäk.</long>
+      </locale>
+
+      <locale name="uk">
+	<short>Ховати спливаюче вікно при відпусканні спеціальної клавіші</short>
+	<long>Ховати спливаюче вікно при відпусканні спеціальної клавіші. Тільки якщо включено &quot;Слідкувати лише при натиснутій спеціальній клавіші&quot;.</long>
+      </locale>
+
+      <locale name="zh_CN">
+	<short>当释放修饰键时隐藏浮动窗口</short>
+	<long>当释放修饰键时隐藏浮动窗口。这在 only_scan_while_modifier_key 开启时才生效。</long>
+      </locale>
+
+      <locale name="zh_TW">
+	<short>放開作用鍵時隱藏浮動視窗</short>
+	<long>放開作用鍵時隱藏浮動視窗。此設定只有在&quot;只使用作用鍵取詞&quot;選項開啟時才會生效。</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/stardict/preferences/dictionary/scan_modifier_key</key>
+      <applyto>/apps/stardict/preferences/dictionary/scan_modifier_key</applyto>
+      <owner>stardict</owner>
+      <type>int</type>
+      <default>0</default>
+      <locale name="C">
+	<short>Scan modifier key</short>
+	<long>Only scan while this modifier key is being pressed. It can be Win(0), Shift(1), Alt(2) or Ctrl(3).</long>
+      </locale>
+
+      <locale name="cs">
+	<short>Modifikátorová klávesa pro skenování:</short>
+	
+      </locale>
+
+      <locale name="el">
+	
+	<long>Ανίχνευση μόνο όταν αυτό το πλήκτρο modifier πιέζεται. Μπορεί να είναι τα  Win(0), Shift(1), Alt(2) or Ctrl(3).</long>
+      </locale>
+
+      <locale name="fr">
+	<short>Touche d&apos;activation du scan</short>
+	<long>Scanner uniquement lorsque la touche d&apos;activation est enfoncée. Cette touche peut être Win(0), Maj(1), Alt(2) ou Ctrl(3).</long>
+      </locale>
+
+      <locale name="hr">
+	<short>_Tipka za uključenje pretraživanja:</short>
+	<long>Pretraži selekciju samo ako je pripadna tipka pritisnuta. To može biti Win(0), Shift(1), Alt(2) or Ctrl(3).</long>
+      </locale>
+
+      <locale name="mk">
+	<short>Копче за пребарување</short>
+	
+      </locale>
+
+      <locale name="nl">
+	<short>Zoek optietoets</short>
+	
+      </locale>
+
+      <locale name="pt_BR">
+	<short>Tecla modificadora da leitura</short>
+	<long>Somente ler se uma tecla modificadora estiver sendo pressionada. Ela pode ser Win(0), Shift(1), Alt(2) or Ctrl(3).</long>
+      </locale>
+
+      <locale name="ru">
+	<short>Модификатор сканирования</short>
+	<long>Сканировать только если этот клавиша-модификатор нажата.Может быть Win(0), Shift(1), Alt(2) или Ctrl(3).</long>
+      </locale>
+
+      <locale name="sk">
+	<short>Modifikačný kláves skenovania</short>
+	<long>Skenovať iba pri stlačení modifikačného klávesu. Môže to byť Win(0), Shift(1), Alt(2) alebo Ctrl(3).</long>
+      </locale>
+
+      <locale name="tt">
+	<short>Ezläwneñ üzgärtkeç töymäse</short>
+	<long>Üzgärtkeç töymä basılsa ğına ezläp qarísı. Anıñ öçen Win(0), Shift(1), Alt(2) yä Ctrl(3) töymäsen saylap bula.</long>
+      </locale>
+
+      <locale name="uk">
+	<short>Спеціальна клавіша для слідкування</short>
+	<long>Слідкувати за відміченим лише при нажатій спеціальній клавіші. Це може бути Win(0), Shift(1), Alt(2) або Ctrl(3).</long>
+      </locale>
+
+      <locale name="vi">
+	<short>Quét phím điều khiển</short>
+	
+      </locale>
+
+      <locale name="zh_CN">
+	<short>取词修饰键</short>
+	<long>在这个修饰键按下时才取词。可以为 Win(0)，Shift(1)，Alt(2) 或 Ctrl(3)。</long>
+      </locale>
+
+      <locale name="zh_TW">
+	<short>取詞作用鍵</short>
+	<long>作用鍵按下時才取詞。可以是 Win(0)，Shift(1)，Alt(2) 或 Ctrl(3)。</long>
+      </locale>
+    </schema>
+
+	<schema>
+      <key>/schemas/apps/stardict/preferences/dictionary/use_custom_font</key>
+      <applyto>/apps/stardict/preferences/dictionary/use_custom_font</applyto>
+      <owner>stardict</owner>
+      <type>bool</type>
+      <default>FALSE</default>
+      <locale name="C">
+	<short>Use Custom Font</short>
+	<long>Whether to use a user-defined font in StarDict, instead of the default system font. If this option is turned on, then the font named in the "Custom Font" option will be used instead of the system font.</long>
+      </locale>
+
+      <locale name="cs">
+	<short>Použít vlastní písmo.</short>
+	
+      </locale>
+
+      <locale name="el">
+	
+	<long>Αν το StarDict θα χρησιμοποιεί μια καθορισμένη από το χρήστη γραμματοσειρά, αντί της προκαθορισμένης. Με την ενεργοποίηση, θα χρησιμοποιείται το όνομα της γραμματοσειράς της επιλογής &quot;Επιλεγμένη Γραμματοσειρά&quot;.</long>
+      </locale>
+
+      <locale name="fr">
+	<short>Utiliser la police personnalisée</short>
+	<long>Choix de l&apos;utilisation d&apos;une police personnalisée -au lieu de la  police par défaut du système-, ou pas. Si cette option est cochée, alors la police définie dans  l&apos;option &quot;Police particulière&quot; sera utilisée en lieu et place de la police du système.</long>
+      </locale>
+
+      <locale name="hr">
+	<short>Koristi font po izboru.</short>
+	<long>Da li koristiti poseban font u StrDict, umjesto osnovnog sistemskog fonta. Ako je ova opcija uključenam tada će font koji je podešen u opciji &quot;Font po izboru&quot; biti korišten umjesto sistemskog.</long>
+      </locale>
+
+      <locale name="mk">
+	<short>Користи сопствен фонт</short>
+	
+      </locale>
+
+      <locale name="nl">
+	<short>Aangepast lettertype gebruiken</short>
+	
+      </locale>
+
+      <locale name="pt_BR">
+	<short>Usar Fonte Personalizada</short>
+	<long>Se deve ou não se usada uma fonte personalizada, no lugar da fonte padrão do sistema. Se sim, será usada a fonte indicada na opção &quot;Fonte Personalizada&quot;.</long>
+      </locale>
+
+      <locale name="ru">
+	<short>Использовать свой шрифт</short>
+	<long>Использовать или нет указанный шрифт, вместо системного шрифта по умолчанию. Если данная опция включена, тогда будет использоваться шрифт указанный в &quot;Свой шрифт&quot;.</long>
+      </locale>
+
+      <locale name="sk">
+	<short>Použiť vlastné písmo</short>
+	<long>Či sa má použiť vlastné písmo namiesto východzieho písma v StarDict-e. Po zapnutí tejto voľby bude namiesto systémového písma použité písmo vybrané voľbou &quot;Vlastné písmo&quot;.</long>
+      </locale>
+
+      <locale name="tt">
+	<short>Üzençä Yazu Qullanası</short>
+	<long>Siztemneñ töz yazuın qullanu urınına StarDict eçendä üzençä yazu qullanu. Bu köylämä saylanğan bulğan çaqta, &quot;Üzençä Yazu&quot; digänendä äytelgän yazu qullanılaçaq.</long>
+      </locale>
+
+      <locale name="uk">
+	<short>Задіяти користувацький шрифт</short>
+	<long>Чи використовувати у Зоряному словнику вказаний шрифт замість системного шрифту за умовчанням. Якщо дана опція включена, тоді замість системного шрифту використовуватиметься шрифт вказаний у &quot;Користувацький шрифт&quot;.</long>
+      </locale>
+
+      <locale name="vi">
+	<short>Sử dụng font tuỳ chọn</short>
+	
+      </locale>
+
+      <locale name="zh_CN">
+	<short>使用自定义字体</short>
+	<long>是否使用用户指定的字体取代系统默认字体。如果此选项打开，“自定义”选项里的字体将被使用。</long>
+      </locale>
+
+      <locale name="zh_TW">
+	<short>使用自訂字型</short>
+	<long>是否使用指定字型取代系統預設值。若此選項開啟，將會採用&quot;自訂字型&quot;的字型。</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/stardict/preferences/dictionary/custom_font</key>
+      <applyto>/apps/stardict/preferences/dictionary/custom_font</applyto>
+      <owner>stardict</owner>
+      <type>string</type>
+      <default></default>
+      <locale name="C">
+	<short>Custom Font</short>
+	<long>A custom font that will be used in StarDict.
+	This will only take effect if the "Use Custom Font" option is
+	turned on.</long>
+      </locale>
+
+      <locale name="cs">
+	<short>Vlastní písmo</short>
+	<long>Písmo, které bude použito v programu StarDict. Má význam pouze při zatržení volby „Použít vlastní písmo“.</long>
+      </locale>
+
+      <locale name="el">
+	
+	<long>Μια επιλεγμένη γραμματοσειρά που θα χρησιμοποιηθεί στο StarDict. Ενεργοποιείται μόνο όταν η επιλογή &quot;Χρήση Επιλεγμένης Γραμματοσειράς&quot; είναι ενεργή.</long>
+      </locale>
+
+      <locale name="fr">
+	<short>Police personnalisée</short>
+	<long>Une police personnalisée qui sera utilisée dans StarDict. Elle ne sera utilisée que si l&apos;option  &quot;Utiliser la police personnalisée&quot; est cochée.</long>
+      </locale>
+
+      <locale name="hr">
+	<short>Font po izboru</short>
+	<long>Font po izboru koji će biti korišten u StarDict. Ovo će imati utjecaja samo ako je opcija &quot;Koristi Font po izboru&quot; uključena.</long>
+      </locale>
+
+      <locale name="mk">
+	<short>Сопствен фонт</short>
+	<long>Избран фонт кој ќе се користи во StarDict. Ова ќе се примени само ако е вклучена опцијата &quot;Користи сопствен фотн&quot;.</long>
+      </locale>
+
+      <locale name="nl">
+	<short>Aangepast lettertype</short>
+	<long>Een aangepast lettertype zal gebruikt worden in StarDict. Dit zal alleen effect hebben als de optie &quot;Aangepast lettertype gebruiken&quot; is aangezet.</long>
+      </locale>
+
+      <locale name="pt_BR">
+	<short>Fonte Personalizada</short>
+	<long>Uma fonte personalizada que será usada no StarDict. Isso somente terá efeito se a opção &quot;Usar Fonte Personalizada&quot; estiver ativada.</long>
+      </locale>
+
+      <locale name="ru">
+	<short>Свой шрифт</short>
+	<long>Шрифт который будет использоваться в StarDict. Используется только если включена опция &quot;Использовать свой шрифт&quot;.</long>
+      </locale>
+
+      <locale name="sk">
+	<short>Vlastné písmo</short>
+	<long>Písmo, ktoré sa použije v programe StarDict. Má význam iba pri zapnutej voľbe &quot;Použiť vlastné písmo&quot;.</long>
+      </locale>
+
+      <locale name="tt">
+	<short>Üzençä Yazu</short>
+	<long>StarDict eçendä qullanası üzençä yazu. &quot;Üzençä Yazu Qullanu&quot; digän köylämä yanıq torsa ğına eşläyäçäk.</long>
+      </locale>
+
+      <locale name="uk">
+	<short>Користувацький шрифт</short>
+	<long>Шрифт, що використовується у Зоряному словнику. Буде використаний лише якщо включена опція &quot;Задіяти користувацький шрифт&quot;.</long>
+      </locale>
+
+      <locale name="vi">
+	<short>Font tuỳ chọn</short>
+	<long>Một font tuỳ chọn sẽ được sử dụng trong StarDict. Nó chỉ có hiệu lực nếu mục &quot;Dùng font tuỳ chọn&quot; được chọn.</long>
+      </locale>
+
+      <locale name="zh_CN">
+	<short>自定义字体</short>
+	<long>在星际译王中使用的自定义字体。此设置只有在“使用自定义字体”打开时才生效。</long>
+      </locale>
+
+      <locale name="zh_TW">
+	<short>自訂字型</short>
+	<long>在星際譯王中使用的自訂字型。此設定只有在“使用自訂字型”選項啟動時有效</long>
+      </locale>
+    </schema>
+
+	<schema>
+      <key>/schemas/apps/stardict/preferences/dictionary/enable_sound_event</key>
+      <applyto>/apps/stardict/preferences/dictionary/enable_sound_event</applyto>
+      <owner>stardict</owner>
+      <type>bool</type>
+      <default>TRUE</default>
+      <locale name="C">
+	<short>Enable sound event</short>
+	<long>Whether to enable sound events or not. StarDict will play a sound event when a button is active or released, and when a menu pops up.</long>
+      </locale>
+
+      <locale name="cs">
+	<short>Povolit zvuky událostí. </short>
+	
+      </locale>
+
+      <locale name="el">
+	
+	<long>Αν θα ενεργοποιούνται τα ηχητικά συμβάντα ή όχι. Το StarDict θα παίζει ένα ηχητικό συμβάν όταν ένα πλήκτρο είναι ενεργό ή αφήνεται, και όταν εμφανίζεται ένα μενού.</long>
+      </locale>
+
+      <locale name="fr">
+	<short>Activer le son pour les évènements</short>
+	<long>Choix entre l&apos;activation des sons pour les évènements clavier ou pas. StarDict émettra un son lorsque un bouton sera enfoncé ou relâché, et quand un menu apparaîtra.</long>
+      </locale>
+
+      <locale name="hr">
+	<short>Omogući zvučne događaje</short>
+	<long>Da li omogućiti zvučne događaje ili ne. StarDict će svirati zvučni događaj kad je botun aktivan ili oslobođen, te kod iskakanja izbornika.</long>
+      </locale>
+
+      <locale name="mk">
+	<short>Овозможи звучни настани</short>
+	
+      </locale>
+
+      <locale name="nl">
+	<short>Geluidsgebeurtenissen aanzetten</short>
+	
+      </locale>
+
+      <locale name="pt_BR">
+	<short>Habilitar som de eventos</short>
+	<long>Se os sons dos eventos devem ou não ser habilitados. O StarDict tocará o som de um evento quando um botão estiver ativo ou quando for liberado, e quando um menu aparecer.</long>
+      </locale>
+
+      <locale name="ru">
+	<short>Использовать звуки для событий</short>
+	<long>Если озвучивание событий включено, StarDict будет проигрывать системные звуки при нажатии кнопок и при появлении всплывающего окна.</long>
+      </locale>
+
+      <locale name="sk">
+	<short>Povoliť zvuky udalostí</short>
+	<long>Či sa budú používať zvuky udalostí alebo nie. StarDict bude prehrávať zvuky pri aktivite tlačíka a zobrazení ponuky.</long>
+      </locale>
+
+      <locale name="tt">
+	<short>Tawışlı bizäleş qullanası</short>
+	<long>Tawışlı bizäleş qullanu. Berär töymä basılğac/cibärelgäç, yä atılma saylaq çıqqaç StarDict yazılımı berär tawış uynata.</long>
+      </locale>
+
+      <locale name="uk">
+	<short>Використовувати звуки для подій</short>
+	<long>Якщо задіяне озвучення, Зоряний словник програватиме звуки при активації кнопок та при появі спливаючого вікна.</long>
+      </locale>
+
+      <locale name="vi">
+	<short>Bật các sự kiện âm thanh</short>
+	
+      </locale>
+
+      <locale name="zh_CN">
+	<short>打开事件音效</short>
+	<long>是否打开事件音效。星际译王将在按钮激活，弹起和菜单弹出时播放音效。</long>
+      </locale>
+
+      <locale name="zh_TW">
+	<short>啟用事件音效</short>
+	<long>是否啟用事件音效。星際譯王將在按鍵按下、放開和選單彈現時播放音效。</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/stardict/preferences/main_window/hide_on_startup</key>
+      <applyto>/apps/stardict/preferences/main_window/hide_on_startup</applyto>
+      <owner>stardict</owner>
+      <type>bool</type>
+      <default>FALSE</default>
+      <locale name="C">
+	<short>Hide the window on startup</short>
+	<long>Whether to hide the main window on startup, or not.</long>
+      </locale>
+
+      <locale name="el">
+	
+	<long>Αν θα αποκρύπτεται το κυρίως παράθυρο στην εκκίνηση ή όχι.</long>
+      </locale>
+
+      <locale name="fr">
+	<short>Cacher la fenêtre au démarrage</short>
+	<long>Choix entre cacher la fenêtre principale au démarrage, ou pas.</long>
+      </locale>
+
+      <locale name="hr">
+	<short>Sakrij prozor kod pokretanja</short>
+	<long>Da li sakriti glavni prozor kod pokretanja, ili ne.</long>
+      </locale>
+
+      <locale name="pt_BR">
+	<short>Esconder janela na iniciação do programa</short>
+	<long>Se a janela principal deve ou não ser escondida na iniciação do programa.</long>
+      </locale>
+
+      <locale name="ru">
+	<short>Прятать окно при старте </short>
+	<long>Прятать ли главное окно сразу после запуска или нет.</long>
+      </locale>
+
+      <locale name="sk">
+	<short>Pri spustení programu skryť okno</short>
+	<long>Či sa má skryť hlavné okno pri spustení, alebo nie.</long>
+      </locale>
+
+      <locale name="tt">
+	<short>Cibärelgändä bu täräzäne yäşer</short>
+	<long>Cibärelgän çaqta töp täräzä yäşerü.</long>
+      </locale>
+
+      <locale name="uk">
+	<short>Ховати вікно при старті</short>
+	<long>Чи ховати головне вікно відразу після запуску.</long>
+      </locale>
+
+      <locale name="zh_CN">
+	<short>启动时隐藏窗口</short>
+	<long>是否在启动时隐藏主窗口。</long>
+      </locale>
+
+      <locale name="zh_TW">
+	<short>啟動時隱藏視窗</short>
+	<long>是否在啟動時隱藏主視窗</long>
+      </locale>
+    </schema>
+
+	<schema>
+      <key>/schemas/apps/stardict/preferences/main_window/search_website_list</key>
+      <applyto>/apps/stardict/preferences/main_window/search_website_list</applyto>
+      <owner>stardict</owner>
+      <type>list</type>
+	  <list_type>string</list_type>
+	  <default>[]</default>
+	  <locale name="C">  
+	<short>Search website list</short>
+	<long>List the search websites.</long>
+      </locale>
+
+	  <locale name="cs">  
+	
+	<long>Zobrazit seznam WWW stránek pro hledání</long>
+      </locale>
+
+	  <locale name="fr">  
+	<short>Rechercher un site Web</short>
+	<long>Lister les sites Web de recherche.</long>
+      </locale>
+
+	  <locale name="hr">  
+	<short>Pretraži listu sajtova</short>
+	<long>Listaj sajtove za pretraživanje.</long>
+      </locale>
+
+	  <locale name="mk">  
+	
+	<long>Листај ги веб страните за пребарување.</long>
+      </locale>
+
+	  <locale name="nl">  
+	
+	<long>De zoekwebsites opsommen.</long>
+      </locale>
+
+	  <locale name="pt_BR">  
+	<short>Pesquisar na lista de websites</short>
+	<long>Listar sítios web de busca.</long>
+      </locale>
+
+	  <locale name="ru">  
+	<short>Список сайтов для поиска</short>
+	<long>Отобразить список сайтов поиска.</long>
+      </locale>
+
+	  <locale name="sk">  
+	<short>Zoznam webstránok pre hľadanie</short>
+	<long>Zobraziť zoznam zakázaných slovníkov.</long>
+      </locale>
+
+	  <locale name="tt">  
+	<short>Ezläw bitläre tezmäse</short>
+	<long>Ezläw säxifälären tezäse.</long>
+      </locale>
+
+	  <locale name="uk">  
+	<short>Список пошукових сайтів</short>
+	<long>Показати пошукові сайти.</long>
+      </locale>
+
+	  <locale name="vi">  
+	
+	<long>Liệt kê danh mục website tìm kiếm</long>
+      </locale>
+
+	  <locale name="zh_CN">  
+	<short>搜索网站列表</short>
+	<long>列出搜索网站</long>
+      </locale>
+
+	  <locale name="zh_TW">  
+	
+	<long>列出搜尋網站</long>
+      </locale>
+    </schema>
+	
+	<schema>
+      <key>/schemas/apps/stardict/preferences/main_window/window_width</key>
+      <applyto>/apps/stardict/preferences/main_window/window_width</applyto>
+      <owner>stardict</owner>
+      <type>int</type>
+      <default>555</default>
+      <locale name="C">
+	<short>Window-width</short>
+	<long>The width of the main stardict window.</long>
+      </locale>
+
+      <locale name="fr">
+	<short>Largeur de la fenêtre</short>
+	<long>Largeur de la fenêtre principale de StarDict.</long>
+      </locale>
+
+      <locale name="hr">
+	<short>Širina prozora</short>
+	<long>Širina glavnog stardict prozora.</long>
+      </locale>
+
+      <locale name="pt_BR">
+	<short>Largura da Janela</short>
+	<long>A largura da janela principal do stardict.</long>
+      </locale>
+
+      <locale name="ru">
+	<short>Ширина окна </short>
+	<long>Ширина главного окна stardict.</long>
+      </locale>
+
+      <locale name="sk">
+	<short>Šírka okna</short>
+	<long>Šírka hlavného stardict okna.</long>
+      </locale>
+
+      <locale name="tt">
+	<short>Täräzä-kiñlege</short>
+	<long>Töp täräzäneñ kiñlege bu.</long>
+      </locale>
+
+      <locale name="uk">
+	<short>Ширина вікна</short>
+	<long>Ширина головного вікна зоряного словника.</long>
+      </locale>
+
+      <locale name="zh_CN">
+	<short>窗口宽度</short>
+	<long>主窗口的宽度。</long>
+      </locale>
+
+      <locale name="zh_TW">
+	<short>視窗寬度</short>
+	<long>主視窗寬度</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/stardict/preferences/main_window/window_height</key>
+      <applyto>/apps/stardict/preferences/main_window/window_height</applyto>
+      <owner>stardict</owner>
+      <type>int</type>
+      <default>361</default>
+      <locale name="C">
+	<short>Window-height</short>
+	<long>The height of the main stardict window.</long>
+      </locale>
+
+      <locale name="fr">
+	<short>Hauteur de la fenêtre</short>
+	<long>Hauteur de la fenêtre principale</long>
+      </locale>
+
+      <locale name="hr">
+	<short>Visina prozora</short>
+	<long>Visina glavnog stardict prozora.</long>
+      </locale>
+
+      <locale name="pt_BR">
+	<short>Altura da Janela</short>
+	<long>A altura da janela principal do stardict.</long>
+      </locale>
+
+      <locale name="ru">
+	<short>Высота окна </short>
+	<long>Высота главного окна stardict.</long>
+      </locale>
+
+      <locale name="sk">
+	<short>Výška okna</short>
+	<long>Výška hlavného stardict okna.</long>
+      </locale>
+
+      <locale name="tt">
+	<short>Täräzä-böyeklege</short>
+	<long>Töp täräzäneñ böyeklege bu.</long>
+      </locale>
+
+      <locale name="uk">
+	<short>Висота вікна</short>
+	<long>Висота головного вікна Зоряного словника</long>
+      </locale>
+
+      <locale name="zh_CN">
+	<short>窗口高度</short>
+	<long>主窗口的高度。</long>
+      </locale>
+
+      <locale name="zh_TW">
+	<short>視窗高度</short>
+	<long>主視窗高度</long>
+      </locale>
+    </schema>
+
+	<schema>
+      <key>/schemas/apps/stardict/preferences/main_window/maximized</key>
+      <applyto>/apps/stardict/preferences/main_window/maximized</applyto>
+      <owner>stardict</owner>
+      <type>bool</type>
+      <default>FALSE</default>
+      <locale name="C">
+	<short>Whether the window is maximized or not</short>
+	<long>Whether the main window is maximized or not.</long>
+      </locale>
+
+      <locale name="el">
+	<short>Αν το παράθυρο είναι μεγιστοποιημένο ή όχι.</short>
+	<long>Αν το κυρίως παράθυρο είναι μεγιστοποιημένο ή όχι.</long>
+      </locale>
+
+      <locale name="fr">
+	<short>Choix entre maximiser la fenêtre ou pas.</short>
+	<long>Choix entre maximiser la fenêtre principale, ou pas.</long>
+      </locale>
+
+      <locale name="hr">
+	<short>Da li je prozor maksimiziran ili ne.</short>
+	<long>Da li je glavni prozor maksimiziran ili ne.</long>
+      </locale>
+
+      <locale name="pt_BR">
+	<short>Se a janela deve ou não ser maximizada</short>
+	<long>Se a janela principal está maximizada ou não.</long>
+      </locale>
+
+      <locale name="ru">
+	<short>Максимизировать размеры окна или нет</short>
+	<long>Максимизировать главное окно программы или нет.</long>
+      </locale>
+
+      <locale name="sk">
+	<short>Či je okno maximalizované alebo nie</short>
+	<long>Či maximalizovať hlavné okno alebo nie.</long>
+      </locale>
+
+      <locale name="tt">
+	<short>Ul täräzä cäyelgän bulsa da.</short>
+	<long>Töp täräzä cäyelgän bulsa da.</long>
+      </locale>
+
+      <locale name="uk">
+	<short>Чи максимального розміру вікно</short>
+	<long>Чи максимального розміру головне вікно.</long>
+      </locale>
+
+      <locale name="zh_CN">
+	<short>窗口是否最大化了</short>
+	<long>主窗口是否最大化了。</long>
+      </locale>
+
+      <locale name="zh_TW">
+	<short>視窗是否已經最大化</short>
+	<long>主視窗是否已經最大化</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/stardict/preferences/main_window/hpaned_pos</key>
+      <applyto>/apps/stardict/preferences/main_window/hpaned_pos</applyto>
+      <owner>stardict</owner>
+      <type>int</type>
+      <default>149</default>
+      <locale name="C">
+	<short>Hpaned 's position</short>
+	<long>The hpaned's position, between the listview and the textview.</long>
+      </locale>
+
+      <locale name="cs">
+	<short>Poloha oddělovače</short>
+	
+      </locale>
+
+      <locale name="el">
+	<short>Θέση του Hpaned</short>
+	<long>Η θέση του hpaned, μεταξύ των όψεων λίστας και κειμένου.</long>
+      </locale>
+
+      <locale name="fr">
+	<short>Position du délimiteur</short>
+	<long>Position du délimiteur entre la liste de termes et le cadre définition.</long>
+      </locale>
+
+      <locale name="hr">
+	<short>Položaj panela</short>
+	<long>Položaj panela, između liste i tekstualnog pogleda</long>
+      </locale>
+
+      <locale name="mk">
+	<short>Hpaned &apos;s позиција</short>
+	
+      </locale>
+
+      <locale name="nl">
+	<short>Hpaned &apos;s positie</short>
+	
+      </locale>
+
+      <locale name="pt_BR">
+	<short>Posição do Hpaned</short>
+	<long>A posição do hpaned, entre o listview e o textview.</long>
+      </locale>
+
+      <locale name="ru">
+	<short>Позиция разделителя</short>
+	<long>Позиция разделителя, находящегося между списком слов и областью перевода.</long>
+      </locale>
+
+      <locale name="sk">
+	<short>Poloha oddeľovača</short>
+	<long>Poloha oddeľovača medzi zoznamom hesiel a definičnou oblasťou.</long>
+      </locale>
+
+      <locale name="tt">
+	<short>Hpaned&apos;nıñ urınlaşuı</short>
+	<long>Hpaned&apos;nıñ urınlaşuı, tezmä tiräse belän yazma tiräse arasında.</long>
+      </locale>
+
+      <locale name="uk">
+	<short>Позиція горизонтального роздільника</short>
+	<long>Позиція роздільника, який знаходиться між списком слів та областю перекладу.</long>
+      </locale>
+
+      <locale name="vi">
+	<short>Vị trí của của sổ Hpaned</short>
+	
+      </locale>
+
+      <locale name="zh_CN">
+	<short>分隔栏位置</short>
+	<long>分隔栏的位置，控制单词列表和文本视区的大小分配。</long>
+      </locale>
+
+      <locale name="zh_TW">
+	<short>分隔框位置</short>
+	<long>水平分隔框位置，控制單字列表及解釋區的大小分配</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/stardict/preferences/main_window/hide_list</key>
+      <applyto>/apps/stardict/preferences/main_window/hide_list</applyto>
+      <owner>stardict</owner>
+      <type>bool</type>
+      <default>FALSE</default>
+      <locale name="C">
+	<short>Hide the list</short>
+	<long>Whether to hide the word-list view or not.</long>
+      </locale>
+
+      <locale name="cs">
+	<short>Skrýt seznam</short>
+	
+      </locale>
+
+      <locale name="el">
+	
+	<long>Αν θα αποκρύπτεται η λίστα λέξεων ή όχι.</long>
+      </locale>
+
+      <locale name="fr">
+	<short>Cacher la liste</short>
+	<long>Choix entre cacher le cadre contenant la liste des mots, ou pas. </long>
+      </locale>
+
+      <locale name="hr">
+	<short>Sakrij listu</short>
+	<long>Da li sakriti pogled sa listu riječi  ili ne.</long>
+      </locale>
+
+      <locale name="mk">
+	<short>Скриј ја листата</short>
+	
+      </locale>
+
+      <locale name="nl">
+	<short>De lijst verbergen</short>
+	
+      </locale>
+
+      <locale name="pt_BR">
+	<short>Esconder a lista</short>
+	<long>Se a lista de palavras deve ou não ser escondida.</long>
+      </locale>
+
+      <locale name="ru">
+	<short>Спрятать список</short>
+	<long>Прятать ли список с подходящими словами или нет.</long>
+      </locale>
+
+      <locale name="sk">
+	<short>Skryť zoznam</short>
+	<long>Či skryť zoznam hesiel alebo nie.</long>
+      </locale>
+
+      <locale name="tt">
+	<short>Tezmäne yäşer</short>
+	<long>Süzlär tezmäse belän tiräsen yäşerü</long>
+      </locale>
+
+      <locale name="uk">
+	<short>Сховати список</short>
+	<long>Чи ховати список зі знайденими словами.</long>
+      </locale>
+
+      <locale name="vi">
+	<short>Dấu danh mục</short>
+	
+      </locale>
+
+      <locale name="zh_CN">
+	<short>隐藏单词列表</short>
+	<long>是否隐藏单词列表。</long>
+      </locale>
+
+      <locale name="zh_TW">
+	<short>隱藏單字列表</short>
+	<long>是否隱藏單字列表</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/stardict/preferences/notification_area_icon/query_in_floatwin</key>
+      <applyto>/apps/stardict/preferences/notification_area_icon/query_in_floatwin</applyto>
+      <owner>stardict</owner>
+      <type>bool</type>
+      <default>TRUE</default>
+      <locale name="C">
+	<short>Query in the floating window when middle mouse button is clicked</short>
+	<long>Whether to query in the floating window, or in the main window. Query is activated by the user clicking the middle mouse button on the notification area icon.</long>
+      </locale>
+
+      <locale name="el">
+	
+	<long>Αν θα γίνεται η ερώτηση στο επιπλέον παράθυρο ή στο κυρίως. Η ερώτηση ενεργοποιείται με μεσαίο κλικ στην περιοχή του εικονιδίου ειδοποίησης.</long>
+      </locale>
+
+      <locale name="fr">
+	<short>Résultat de la recherche dans le phylactère lorsqu&apos;on clique sur le bouton du milieu de la souris.</short>
+	<long>Choix entre montrer le fruit de la recherche dans le phylactère, ou dans la fenêtre principale. La recherche est activée par l&apos;utilisateur en cliquant avec le bouton du milieu de la souris sur l&apos;icône StarDict de la barre des tâches.</long>
+      </locale>
+
+      <locale name="hr">
+	<short>Izvrši upit u plutajućem prozoru kad se srednji botun miša pritisne.</short>
+	<long>Da li upit vršiti u plutajućem prozoru ili u glavnom prozoru. Upit se aktivira tako da korisnik klikne srednji botun miša na ikonu u notifikacijskom području.</long>
+      </locale>
+
+      <locale name="pt_BR">
+	<short>Pesquisar na janela flutuante quando clicar com o botão do meio do mouse</short>
+	<long>Se o resultado da pesquisa deve ser exibido em uma janela flutuante ou na janela principal. A pesquisa é ativada quando o usuário clica com o botão direito do mouse sobre o ícone na área de notificação.</long>
+      </locale>
+
+      <locale name="ru">
+	<short>Запрашивать в всплывающем окне когда средняя кнопка мыши нажата</short>
+	<long>Запрашивать во всплывающем или главном окне. Происходит когда пользователь нажимает среднюю кнопку мыши на иконке в области уведомления.</long>
+      </locale>
+
+      <locale name="sk">
+	<short>Kliknutím prostredného tlačidla na myši presunúť požiadavku do plávajúceho okna.</short>
+	<long>Či sa pri požiadavky spracuje v plávajúcom alebo hlavnom okne. Požiadavka je aktivovaná používateľovým kliknutím prostredným tlačidlom myši na notifikačnú oblasť ikony.</long>
+      </locale>
+
+      <locale name="tt">
+	<short>Küseneñ üzäk töymäse basılğaç yözmä täräzädä ezlise</short>
+	<long>Ezläw sorawın yözmä täräzägä me, yä töp täräzädä cibäräsen saylaw. Beleşderü tiräsendäge tamğağa küseneñ üzäk töymäse aşa çirtkändä soraw cibärelä.</long>
+      </locale>
+
+      <locale name="uk">
+	<short>Здійснювати пошук у спливаючому вікні при клацанні середньою кнопкою мишки </short>
+	<long>Здійснювати пошук у спливаючому або ж у головному вікні. Відбувається, коли користувач натискає середню кнопку миші на іконці у області сповіщень.</long>
+      </locale>
+
+      <locale name="zh_CN">
+	<short>当中鼠标键按下时在浮动窗口中查询</short>
+	<long>是否在浮动窗口中查询，否则为主窗口。这在用户以鼠标中键点击通知栏图标时发生。</long>
+      </locale>
+
+      <locale name="zh_TW">
+	<short>當按下滑鼠中鍵時在浮動視窗中進行查詢</short>
+	<long>是否在浮動視窗或主視窗中進行查詢。當使用者在工具列圖示上點擊滑鼠中鍵時發生。</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/stardict/preferences/floating_window/pronounce_when_popup</key>
+      <applyto>/apps/stardict/preferences/floating_window/pronounce_when_popup</applyto>
+      <owner>stardict</owner>
+      <type>bool</type>
+      <default>FALSE</default>
+      <locale name="C">
+	<short>Pronounce the word when it pops up.</short>
+	<long>Pronounce the word when the floating window pops up.</long>
+      </locale>
+
+      <locale name="fr">
+	<short>Prononciation du mot quand il apparaît.</short>
+	<long>Prononciation du mot quand le phylactère apparaît.</long>
+      </locale>
+
+      <locale name="hr">
+	<short>Izgovori riječ kod iskakanja.</short>
+	<long>Izgovori riječ kad plutajući prozor iskoči.</long>
+      </locale>
+
+      <locale name="pt_BR">
+	<short>Pronunciar a palavra quando ela aparecer.</short>
+	<long>Pronunciar a palavra quando a janela flutuante aparecer.</long>
+      </locale>
+
+      <locale name="ru">
+	<short>Произнести слово при всплытие перевода</short>
+	<long>Произнести слово при появлении всплывающего окна.</long>
+      </locale>
+
+      <locale name="sk">
+	<short>Vyslovovať nájdené heslá.</short>
+	<long>Pri zobrazení hesla prehrať zvukový záznam výslovnosti.</long>
+      </locale>
+
+      <locale name="tt">
+	<short>Süz atılıp çıqqanda äyteleşen kiteräse.</short>
+	<long>Yözmä täräzä atılğaç süz äyteleşen uynatası.</long>
+      </locale>
+
+      <locale name="uk">
+	<short>Промовляти слово при появі спливаючого вікна.</short>
+	<long>Промовляти слово при появі спливаючого вікна.</long>
+      </locale>
+
+      <locale name="zh_CN">
+	<short>弹出时朗读单词。</short>
+	<long>弹出浮动窗口时朗读单词。</long>
+      </locale>
+
+      <locale name="zh_TW">
+	<short>彈現時單字發音</short>
+	<long>彈現浮動視窗時單字發音</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/stardict/preferences/floating_window/max_window_width</key>
+      <applyto>/apps/stardict/preferences/floating_window/max_window_width</applyto>
+      <owner>stardict</owner>
+      <type>int</type>
+      <default>320</default>
+      <locale name="C">
+	<short>Maximum window-width</short>
+	<long>The maximum width of the floating stardict window.</long>
+      </locale>
+
+      <locale name="el">
+	
+	<long>Το μέγιστο πλάτος του επιπλέοντος παραθύρου του stardict.</long>
+      </locale>
+
+      <locale name="fr">
+	<short>Largeur de la fenêtre maximale</short>
+	<long>Largeur maximale du phylactère.</long>
+      </locale>
+
+      <locale name="hr">
+	<short>Maks. širina prozora</short>
+	<long>Maksimalna širina plutajućeg stardict prozora.</long>
+      </locale>
+
+      <locale name="pt_BR">
+	<short>Largura máxima da janela</short>
+	<long>A largura máxima da janela flutuante do stardict.</long>
+      </locale>
+
+      <locale name="ru">
+	<short>Максимальная ширина окна</short>
+	<long>Максимальная ширина всплывающего окна с переводом.</long>
+      </locale>
+
+      <locale name="sk">
+	<short>Maximálna šírka okna</short>
+	<long>Maximálna šírka plávajúceho stardict okna.</long>
+      </locale>
+
+      <locale name="tt">
+	<short>Täräzä kiñlegen çikläw</short>
+	<long>Yözmä täräzäneñ kiñlegen çikläw.</long>
+      </locale>
+
+      <locale name="uk">
+	<short>Максимальна ширина вікна</short>
+	<long>Максимальна ширина плаваючого вікна Зоряного словника.</long>
+      </locale>
+
+      <locale name="zh_CN">
+	<short>最大窗口宽度</short>
+	<long>浮动窗口的最大宽度。</long>
+      </locale>
+
+      <locale name="zh_TW">
+	<short>最大視窗寬度</short>
+	<long>浮動視窗最大寬度</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/stardict/preferences/floating_window/max_window_height</key>
+      <applyto>/apps/stardict/preferences/floating_window/max_window_height</applyto>
+      <owner>stardict</owner>
+      <type>int</type>
+      <default>240</default>
+      <locale name="C">
+	<short>Maximum window-height</short>
+	<long>The maximum height of the floating stardict window.</long>
+      </locale>
+
+      <locale name="el">
+	
+	<long>Το μέγιστο ύψος του επιπλέοντος παραθύρου του stardict.</long>
+      </locale>
+
+      <locale name="fr">
+	<short>Hauteur de la fenêtre maximale</short>
+	<long>Hauteur maximale du phylactère.</long>
+      </locale>
+
+      <locale name="hr">
+	<short>Maks. visina prozora</short>
+	<long>Maksimalna visina plutajućeg stardict prozora.</long>
+      </locale>
+
+      <locale name="pt_BR">
+	<short>Altura máxima da janela</short>
+	<long>A altura máxima da janela flutuante do stardict.</long>
+      </locale>
+
+      <locale name="ru">
+	<short>Максимальная высота окна</short>
+	<long>Максимальная высота всплывающего окна с переводом.</long>
+      </locale>
+
+      <locale name="sk">
+	<short>Maximálna výška okna</short>
+	<long>Maximálna výška plávajúceho stardict okna.</long>
+      </locale>
+
+      <locale name="tt">
+	<short>Täräzä böyeklegen çikläw</short>
+	<long>Yözmä täräzäneñ böyeklegen çikläw.</long>
+      </locale>
+
+      <locale name="uk">
+	<short>Максимальна висота вікна</short>
+	<long>Максимальна висота плаваючого вікна Зоряного словника.</long>
+      </locale>
+
+      <locale name="zh_CN">
+	<short>最大窗口高度</short>
+	<long>浮动窗口的最大高度。</long>
+      </locale>
+
+      <locale name="zh_TW">
+	<short>最大視窗高度</short>
+	<long>浮動視窗最大高度</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/stardict/preferences/floating_window/lock</key>
+      <applyto>/apps/stardict/preferences/floating_window/lock</applyto>
+      <owner>stardict</owner>
+      <type>bool</type>
+      <default>FALSE</default>
+      <locale name="C">
+	<short>whether to lock the window or not</short>
+	<long>Whether to lock the floating window or not. While locked, the window will not disappear.</long>
+      </locale>
+
+      <locale name="el">
+	<short>αν θα κλειδώνεται το παράθυρο ή όχι</short>
+	<long>Αν θα κλειδώνεται το επιπλέον παράθυρο ή όχι. Κατά το κλείδωμα, το παράθυρο δε θα εμφανίζεται.</long>
+      </locale>
+
+      <locale name="fr">
+	<short>Choix entre bloquer la fenêtre ou pas.</short>
+	<long>Choix entre bloquer le phylactère, ou pas. Si il est bloqué, il ne  disparaîtra pas.</long>
+      </locale>
+
+      <locale name="hr">
+	<short>Da li zaključati prozor ili ne</short>
+	<long>Da li zaključati plutajući prozor ili ne. Dok je zaključan, prozor neće nestati.</long>
+      </locale>
+
+      <locale name="pt_BR">
+	<short>se a janela deve ou não ser fixada</short>
+	<long>Se a janela flutuante deve ser fixada ou não. Se fixada, ela não irá desaparecer.</long>
+      </locale>
+
+      <locale name="ru">
+	<short>Закреплять окно или нет</short>
+	<long>Закреплять ли всплывающее окно. Когда закреплено, окно всегда отображается на этом месте.</long>
+      </locale>
+
+      <locale name="sk">
+	<short>či uzamknúť okno alebo nie</short>
+	<long>Či uzamknúť polohu plávajúceho okna. Pri uzamknutí okno nezmizne mieste.</long>
+      </locale>
+
+      <locale name="tt">
+	<short>Täräzäne berketäseme, yuqmı</short>
+	<long>Yözmä täräzä berketü. </long>
+      </locale>
+
+      <locale name="uk">
+	<short>чи закріплювати вікно</short>
+	<long>Закріплювати спливаюче вікно. Коли вікно закріплене, воно не зникатиме.</long>
+      </locale>
+
+      <locale name="zh_CN">
+	<short>是否锁定窗口</short>
+	<long>是否锁定浮动窗口。锁定的时候窗口不会消失。</long>
+      </locale>
+
+      <locale name="zh_TW">
+	<short>是否鎖定視窗</short>
+	<long>是否鎖定浮動視窗。鎖定的視窗會永遠顯示並固定在同一位置。</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/stardict/preferences/floating_window/lock_x</key>
+      <applyto>/apps/stardict/preferences/floating_window/lock_x</applyto>
+      <owner>stardict</owner>
+      <type>int</type>
+      <default>0</default>
+      <locale name="C">
+	<short>lock position (x)</short>
+	<long>the window's x position while locked.</long>
+      </locale>
+
+      <locale name="cs">
+	
+	<long>Poloha plovoucího okna na vodorovné ose při uzamčení polohy okna.</long>
+      </locale>
+
+      <locale name="el">
+	<short>θέση κλειδώματος (x)</short>
+	<long>η θέση κλειδώματος x του παραθύρου.</long>
+      </locale>
+
+      <locale name="fr">
+	<short>bloquer la position (x)</short>
+	<long>La position en largeur (x) de la fenêtre lorsqu&apos;elle est bloquée.</long>
+      </locale>
+
+      <locale name="hr">
+	<short>položaj zaključavanja (x)</short>
+	<long>x pozicija zaključanog prozora.</long>
+      </locale>
+
+      <locale name="mk">
+	
+	<long>X позицијата на прозорецот додека е заклучен.</long>
+      </locale>
+
+      <locale name="nl">
+	
+	<long>de x-postitie van het venster als deze vergrendeld is.</long>
+      </locale>
+
+      <locale name="pt_BR">
+	<short>posição fixa (x)</short>
+	<long>a posição x da janela quando fixada.</long>
+      </locale>
+
+      <locale name="ru">
+	<short>Закрепить позицию по x.</short>
+	<long>Позиция окна по x когда закреплено.</long>
+      </locale>
+
+      <locale name="sk">
+	<short>uzamknúť polohu (x)</short>
+	<long>Poloha plávajúceho okna na vodorovnej osi pri uzamknutí polohy okna.</long>
+      </locale>
+
+      <locale name="tt">
+	<short>x-urınlaşuın berket</short>
+	<long>berketelsä, bu täräzäneñ sul çigeşe.</long>
+      </locale>
+
+      <locale name="uk">
+	<short>Позиція закріплення по x</short>
+	<long>позиція вікна по x, коли воно закріплене.</long>
+      </locale>
+
+      <locale name="vi">
+	
+	<long>vị trí theo phương x khi bị khoá.</long>
+      </locale>
+
+      <locale name="zh_CN">
+	<short>锁定位置的x坐标</short>
+	<long>窗口被锁定时所在的x坐标。</long>
+      </locale>
+
+      <locale name="zh_TW">
+	<short>鎖定位置的x座標</short>
+	<long>視窗被鎖定時所在的x座標</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/stardict/preferences/floating_window/lock_y</key>
+      <applyto>/apps/stardict/preferences/floating_window/lock_y</applyto>
+      <owner>stardict</owner>
+      <type>int</type>
+      <default>0</default>
+      <locale name="C">
+	<short>lock position (y)</short>
+	<long>the window's y position while locked.</long>
+      </locale>
+
+      <locale name="cs">
+	
+	<long>Poloha plovoucího okna na svislé ose při uzamčení polohy okna.</long>
+      </locale>
+
+      <locale name="el">
+	<short>θέση κλειδώματος (y)</short>
+	<long>η θέση κλειδώματος y του παραθύρου.</long>
+      </locale>
+
+      <locale name="fr">
+	<short>bloquer la position (y)</short>
+	<long>La position en hauteur (y) de la fenêtre lorsqu&apos;elle est bloquée.</long>
+      </locale>
+
+      <locale name="hr">
+	<short>položaj zaključavanja (y)</short>
+	<long>y pozicija zaključanog prozora.</long>
+      </locale>
+
+      <locale name="mk">
+	
+	<long>Y позицијата на прозорецот додека е заклучен.</long>
+      </locale>
+
+      <locale name="nl">
+	
+	<long>de y-postitie van het venster als deze vergrendeld is.</long>
+      </locale>
+
+      <locale name="pt_BR">
+	<short>posição fixa (y)</short>
+	<long>a posição y da janela quando fixada.</long>
+      </locale>
+
+      <locale name="ru">
+	<short>Закрепить позицию по y</short>
+	<long>Позиция окна по y когда закреплено.</long>
+      </locale>
+
+      <locale name="sk">
+	<short>uzamknúť polohu (y)</short>
+	<long>Poloha plávajúceho okna na zvislej osi pri uzamknutí polohy okna.</long>
+      </locale>
+
+      <locale name="tt">
+	<short>y-urınlaşuın berket</short>
+	<long>berketelsä, bu täräzäneñ öske çigeşe.</long>
+      </locale>
+
+      <locale name="uk">
+	<short>Позиція закріплення по у</short>
+	<long>позиція вікна по y, коли воно закріплене.</long>
+      </locale>
+
+      <locale name="vi">
+	
+	<long>vị trí theo phương y khi bị khoá.</long>
+      </locale>
+
+      <locale name="zh_CN">
+	<short>锁定位置的y坐标</short>
+	<long>窗口被锁定时所在的y坐标。</long>
+      </locale>
+
+      <locale name="zh_TW">
+	<short>鎖定位置的y座標</short>
+	<long>視窗被鎖定時所在的y座標</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/stardict/manage_dictionaries/dict_order_list</key>
+      <applyto>/apps/stardict/manage_dictionaries/dict_order_list</applyto>
+      <owner>stardict</owner>
+      <type>list</type>
+	  <list_type>string</list_type>
+      <default>[]</default>
+      <locale name="C">
+	<short>Dictionary order</short>
+	<long>List the dictionaries in order.</long>
+      </locale>
+
+      <locale name="cs">
+	<short>Pořadí slovníku</short>
+	
+      </locale>
+
+      <locale name="el">
+	
+	<long>Λίστα λεξικών σε σειρά.</long>
+      </locale>
+
+      <locale name="fr">
+	<short>Ordre des dictionnaires</short>
+	<long>Lister les dictionnaires dans l&apos;ordre.</long>
+      </locale>
+
+      <locale name="hr">
+	<short>Poredak rječnika</short>
+	<long>Listaj rječnike po redu.</long>
+      </locale>
+
+      <locale name="mk">
+	<short>Редослед на речници</short>
+	
+      </locale>
+
+      <locale name="nl">
+	<short>Woordenboekvolgorde</short>
+	
+      </locale>
+
+      <locale name="pt_BR">
+	<short>Ordem dos dicionários</short>
+	<long>Listar os dicionários em ordem.</long>
+      </locale>
+
+      <locale name="ru">
+	<short>Порядок словарей</short>
+	<long>Отобразить словари по порядку.</long>
+      </locale>
+
+      <locale name="sk">
+	<short>Poradie slovníkov</short>
+	<long>Zobraziť zoznam slovníkov podľa poradia.</long>
+      </locale>
+
+      <locale name="tt">
+	<short>Süzlek tezeleşe</short>
+	<long>Süzleklärne tezep kürsätäse.</long>
+      </locale>
+
+      <locale name="uk">
+	<short>Порядок словників</short>
+	<long>Показати словники по порядку.</long>
+      </locale>
+
+      <locale name="vi">
+	<short>Thứ tự từ điển</short>
+	
+      </locale>
+
+      <locale name="zh_CN">
+	<short>词典顺序</short>
+	<long>按次序列出词典。</long>
+      </locale>
+
+      <locale name="zh_TW">
+	<short>辭典順序</short>
+	<long>依序列出辭典</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/stardict/manage_dictionaries/dict_disable_list</key>
+      <applyto>/apps/stardict/manage_dictionaries/dict_disable_list</applyto>
+      <owner>stardict</owner>
+      <type>list</type>
+	  <list_type>string</list_type>
+      <default>[]</default>
+      <locale name="C">
+	<short>Disabled dictionary list</short>
+	<long>List the dictionaries which are disabled.</long>
+      </locale>
+
+      <locale name="cs">
+	<short>Seznam zakázaných slovníků</short>
+	<long>Vypsat seznam zakázaných slovníků.</long>
+      </locale>
+
+      <locale name="el">
+	
+	<long>Λίστα απενεργοποιημένων λεξικών.</long>
+      </locale>
+
+      <locale name="fr">
+	<short>Liste des dictionnaires désactivés</short>
+	<long>Lister les dictionnaires qui sont désactivés.</long>
+      </locale>
+
+      <locale name="hr">
+	<short>Lista rječnika onemogućena</short>
+	<long>Listaj rječnike koji su onemogućeni.</long>
+      </locale>
+
+      <locale name="mk">
+	<short>Оневозможена листа на речници</short>
+	<long>Листај ги речниците кои се оневозможени.</long>
+      </locale>
+
+      <locale name="nl">
+	<short>Woordenboeklijst uitgezet</short>
+	<long>De woordenboeken die zijn uitgeschakeld opsommen.</long>
+      </locale>
+
+      <locale name="pt_BR">
+	<short>Lista de dicionários desabilitados</short>
+	<long>Listar dicionários desabilitados.</long>
+      </locale>
+
+      <locale name="ru">
+	<short>Список выключенных словарей</short>
+	<long>Отобразить отключенные словари.</long>
+      </locale>
+
+      <locale name="sk">
+	<short>Zoznam nepovolených slovníkov</short>
+	<long>Zobraziť zoznam nepovolených slovníkov.</long>
+      </locale>
+
+      <locale name="tt">
+	<short>Sünek süzleklär tezmäse</short>
+	<long>Sünek süzleklärne dä tezmägä kertäse.</long>
+      </locale>
+
+      <locale name="uk">
+	<short>Список виключених словників</short>
+	<long>Показати відключені словники.</long>
+      </locale>
+
+      <locale name="vi">
+	<short>Danh mục từ điển không được sử dụng</short>
+	<long>Kiệt kê những từ điển không dùng</long>
+      </locale>
+
+      <locale name="zh_CN">
+	<short>屏蔽的词典列表</short>
+	<long>显示被屏蔽的词典</long>
+      </locale>
+
+      <locale name="zh_TW">
+	<short>停用辭典列表</short>
+	<long>顯示停用辭典</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/stardict/manage_dictionaries/treedict_order_list</key>
+      <applyto>/apps/stardict/manage_dictionaries/treedict_order_list</applyto>
+      <owner>stardict</owner>
+      <type>list</type>
+	  <list_type>string</list_type>
+      <default>[]</default>
+      <locale name="C">
+	<short>Tree Dictionary order</short>
+	<long>List the tree dictionaries in order.</long>
+      </locale>
+
+      <locale name="cs">
+	<short>Pořadí slovníků</short>
+	
+      </locale>
+
+      <locale name="el">
+	
+	<long>Λίστα των δενδρικών λεξικών σε σειρά.</long>
+      </locale>
+
+      <locale name="fr">
+	<short>Ordre des dictionnaires-arbre</short>
+	<long>Lister les dictionnaires arbres dans l&apos;ordre.</long>
+      </locale>
+
+      <locale name="hr">
+	<short>Poredak Hijerarhijskih rječnika</short>
+	<long>Listaj hijerarhijske rječnike po redu.</long>
+      </locale>
+
+      <locale name="mk">
+	<short>Распоред на дрво речниците</short>
+	
+      </locale>
+
+      <locale name="nl">
+	<short>Boomstructuur woordenboek volgorde</short>
+	
+      </locale>
+
+      <locale name="pt_BR">
+	<short>Ordem dos dicionários em árvore</short>
+	<long>Listar os dicionários em árvore em ordem.</long>
+      </locale>
+
+      <locale name="ru">
+	<short>Порядок древовидных словарей</short>
+	<long>Отобразить древовидные словари по порядку.</long>
+      </locale>
+
+      <locale name="sk">
+	<short>Poradie stromových slovníkov</short>
+	<long>Zobraziť zoznam stromových slovníkov v poradí.</long>
+      </locale>
+
+      <locale name="tt">
+	<short>Ağaçtay Süzlek tezeleşe</short>
+	<long>Ağaçtay süzleklärne tezep çığarası.</long>
+      </locale>
+
+      <locale name="uk">
+	<short>Порядок ієрархічних словників</short>
+	<long>Показати ієрархічні словники по порядку.</long>
+      </locale>
+
+      <locale name="vi">
+	<short>Thứ tự từ điển cây</short>
+	
+      </locale>
+
+      <locale name="zh_CN">
+	<short>树型词典顺序</short>
+	<long>按次序列出树型词典。</long>
+      </locale>
+
+      <locale name="zh_TW">
+	<short>樹狀辭典順序</short>
+	<long>依序列出樹狀辭典</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/stardict/manage_dictionaries/treedict_disable_list</key>
+      <applyto>/apps/stardict/manage_dictionaries/treedict_disable_list</applyto>
+      <owner>stardict</owner>
+      <type>list</type>
+	  <list_type>string</list_type>
+      <default>[]</default>
+      <locale name="C">
+	<short>Disabled tree dictionary list</short>
+	<long>List the tree dictionaries which are disabled.</long>
+      </locale>
+
+      <locale name="cs">
+	<short>Seznam zakázaných stromových slovníků</short>
+	<long>Vypsat seznam zakázaných slovníků.</long>
+      </locale>
+
+      <locale name="el">
+	
+	<long>Λίστα των απενεργοποιημένων δενδρικών λεξικών.</long>
+      </locale>
+
+      <locale name="fr">
+	<short>Liste des dictionnaires-arbres désactivés</short>
+	<long>Lister les dictionnaires-arbre désactivés.</long>
+      </locale>
+
+      <locale name="hr">
+	<short>Stablo rječnika onemogućeno</short>
+	<long>Listaj hijerarhijske rječnike koji su onemogućeni.</long>
+      </locale>
+
+      <locale name="mk">
+	<short>Оневозможена листа на дрво речници</short>
+	<long>Листај ги дрво речниците кои се оневозможени.</long>
+      </locale>
+
+      <locale name="nl">
+	<short>Boomstructuur woordenboeklijst uitgezet</short>
+	<long>De boomstructuur woordenboeken die zijn uitgeschakeld opsommen.</long>
+      </locale>
+
+      <locale name="pt_BR">
+	<short>Lista dos dicionários em árvore desabilitados</short>
+	<long>Listar os dicionários em árvore desabilitados.</long>
+      </locale>
+
+      <locale name="ru">
+	<short>Список выключенных древовидных словарей</short>
+	<long>Отобразить отключенные древовидные словари.</long>
+      </locale>
+
+      <locale name="sk">
+	<short>Zoznam nepovolených stromových slovníkov</short>
+	<long>Zobraziť zoznam zakázaných stromových slovníkov.</long>
+      </locale>
+
+      <locale name="tt">
+	<short>Sünek ağaçtay süzleklär tezmäse</short>
+	<long>Sünek torğan ağaçtay süzleklär dä tezäse.</long>
+      </locale>
+
+      <locale name="uk">
+	<short>Список виключених ієрархічних словників</short>
+	<long>Показати відключені ієрархічні словники.</long>
+      </locale>
+
+      <locale name="vi">
+	<short>Danh mục từ điển cây không được sử dụng</short>
+	<long>Kiệt kê những từ điển cây không dùng</long>
+      </locale>
+
+      <locale name="zh_CN">
+	<short>屏蔽的树型词典列表</short>
+	<long>列出被屏蔽的树型词典</long>
+      </locale>
+
+      <locale name="zh_TW">
+	<short>停用樹狀辭典列表</short>
+	<long>顯示停用樹狀辭典</long>
+      </locale>
+    </schema>
+
+  </schemalist>
+</gconfschemafile>
